@@ -1,3 +1,88 @@
-img.profil{
-    width: 10em;
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4E4F50;
+}
+
+#container {
+    background-color: #155A8C;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    background-color: #fff;
+    color: #000000;
+    flex: 3;
+    padding: 20px;
+}
+
+#right {
+    background-color: #4E4F50;
+    color: #ffffff;
+    flex: 1;
+    padding: 20px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #155A8C;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    color: #000000;
+    font-size: 40px;
+}
+
+h3 {
+    color: #000000;
+    font-size: 30px;
+}
+
+h4 {
+    color: #155A8C;
+    font-size: 25px;
+}
+
+h5 {
+    color: #000000;
+    font-size: 20px;
+}
+
+h6 {
+    color: #4E4F50;
+    font-size: 16px;
+}
+
+h7 {
+    color: #000000;
+    font-size: 25px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.contact-icon {
+    margin-right: 10px;
 }
